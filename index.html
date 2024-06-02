@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./dist/task.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form">
+        <label for="title">TASK</label>
+        <input type="text" name="task" id="task" required />
+        <label for="text">TEXT</label>
+        <input type="text" name="text" id="text" required />
+
+        <button class="button" id="btn">Add</button>
+      </form>
+
+      <div class="tasks" id="taskid"></div>
+    </div>
+  </body>
+</html>
